@@ -1,0 +1,975 @@
+[Root]
+Most Recent Package=IBRUQ SETUP
+
+
+[Package|IBRUQ-TECH NIG|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\School Mgt Ware
+
+[Package|IBRUQ-TECH NIG|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=No
+
+[Package|IBRUQ-TECH NIG|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|IBRUQ-TECH NIG|Files Found]
+
+[Package|IBRUQ-TECH NIG|Files Released]
+rptIndi_Fee.DCA=
+rptTransaction.DCA=
+rptTransaction.Dsr=
+rptPayment.Dsr=
+rptEngineering.DCA=
+rptEngineering.Dsr=
+rptDiploma.DCA=
+rptDiploma.Dsr=
+rptCertificate.DCA=
+rptCertificate.Dsr=
+DataReport_Register.DCA=
+DataReport_Register.Dsr=
+frmSchool_Splash.frx=
+frmPay.frx=
+frmMain.frx=
+frmSchool_Splash.frm=
+frmResult.frm=
+frmReport.frm=
+frmRegist.frm=
+frmPay_Summary.frm=
+frmPay.frm=
+frmMain.frm=
+frmLogin.frm=
+SMS.mdb=
+
+[Package|IBRUQ-TECH NIG|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+
+[Package|IBRUQ-TECH NIG|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCT2.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\picclp32.ocx=
+C:\WINDOWS\system32\msdbrptr.dll=
+C:\WINDOWS\system32\comct332.ocx=
+C:\WINDOWS\system32\msdatgrd.ocx=
+C:\WINDOWS\system32\msmask32.ocx=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\MSRDO20.DLL=
+
+[Package|IBRUQ-TECH NIG|Files Added]
+sms.mdb=
+frmlogin.frm=
+frmmain.frm=
+frmpay.frm=
+frmpay_summary.frm=
+frmregist.frm=
+frmreport.frm=
+frmresult.frm=
+frmschool_splash.frm=
+frmmain.frx=
+frmpay.frx=
+frmschool_splash.frx=
+c:\sms_proj\passport\nopic.jpg=
+c:\sms_proj\passport\001.bmp=
+datareport_register.dsr=
+datareport_register.dca=
+rptcertificate.dsr=
+rptcertificate.dca=
+rptdiploma.dsr=
+rptdiploma.dca=
+rptengineering.dsr=
+rptengineering.dca=
+rptpayment.dsr=
+rpttransaction.dsr=
+rpttransaction.dca=
+rptindi_fee.dca=
+c:\sms_proj\sms.vbp=
+C:\SMS_Proj\DataReport_Register.Dsr=
+C:\SMS_Proj\frmLogin.frm=
+C:\SMS_Proj\frmMain.frm=
+C:\SMS_Proj\DataReport_Register.DCA=
+C:\SMS_Proj\frmPay.frm=
+C:\SMS_Proj\frmMain.frx=
+C:\SMS_Proj\frmPay.frx=
+C:\SMS_Proj\frmPay_Summary.frm=
+C:\SMS_Proj\frmRegist.frm=
+C:\SMS_Proj\frmReport.frm=
+C:\SMS_Proj\frmResult.frm=
+C:\SMS_Proj\frmSchool_Splash.frm=
+C:\SMS_Proj\frmSchool_Splash.frx=
+C:\SMS_Proj\MSSCCPRJ.SCC=
+C:\SMS_Proj\rptCertificate.Dsr=
+C:\SMS_Proj\rptCertificate.DCA=
+C:\SMS_Proj\rptDiploma.Dsr=
+C:\SMS_Proj\rptDiploma.DCA=
+C:\SMS_Proj\rptEngineering.Dsr=
+C:\SMS_Proj\rptEngineering.DCA=
+C:\SMS_Proj\rptIndi_Fee.DCA=
+C:\SMS_Proj\rptPayment.Dsr=
+C:\SMS_Proj\rptPayment.DCA=
+C:\SMS_Proj\rptTransaction.Dsr=
+C:\SMS_Proj\rptTransaction.DCA=
+C:\SMS_Proj\SMS.mdb=
+C:\SMS_Proj\SMS.vbw=
+C:\SMS_Proj\SMS.PDM=
+
+[Package|IBRUQ-TECH NIG|Files Removed]
+
+[Package|IBRUQ-TECH NIG|Files In Project]
+C:\SMS_Proj\SMS.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\MSRDC20.OCX=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\msmask32.ocx=Yes
+C:\WINDOWS\system32\msdatgrd.ocx=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\comct332.ocx=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\msdbrptr.dll=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSCHRT20.OCX=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\system32\MSMAPI32.OCX=Yes
+C:\WINDOWS\system32\MCI32.OCX=Yes
+C:\WINDOWS\system32\picclp32.ocx=Yes
+C:\WINDOWS\system32\SYSINFO.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\SMS_Proj\Passport\NoPic.JPG=Yes
+C:\SMS_Proj\Passport\001.bmp=Yes
+C:\SMS_Proj\SMS.vbp=Yes
+C:\SMS_Proj\DataReport_Register.Dsr=Yes
+C:\SMS_Proj\frmLogin.frm=Yes
+C:\SMS_Proj\frmMain.frm=Yes
+C:\SMS_Proj\DataReport_Register.DCA=Yes
+C:\SMS_Proj\frmPay.frm=Yes
+C:\SMS_Proj\frmMain.frx=Yes
+C:\SMS_Proj\frmPay.frx=Yes
+C:\SMS_Proj\frmPay_Summary.frm=Yes
+C:\SMS_Proj\frmRegist.frm=Yes
+C:\SMS_Proj\frmReport.frm=Yes
+C:\SMS_Proj\frmResult.frm=Yes
+C:\SMS_Proj\frmSchool_Splash.frm=Yes
+C:\SMS_Proj\frmSchool_Splash.frx=Yes
+C:\SMS_Proj\MSSCCPRJ.SCC=Yes
+C:\SMS_Proj\rptCertificate.Dsr=Yes
+C:\SMS_Proj\rptCertificate.DCA=Yes
+C:\SMS_Proj\rptDiploma.Dsr=Yes
+C:\SMS_Proj\rptDiploma.DCA=Yes
+C:\SMS_Proj\rptEngineering.Dsr=Yes
+C:\SMS_Proj\rptEngineering.DCA=Yes
+C:\SMS_Proj\rptIndi_Fee.DCA=Yes
+C:\SMS_Proj\rptPayment.Dsr=Yes
+C:\SMS_Proj\rptPayment.DCA=Yes
+C:\SMS_Proj\rptTransaction.Dsr=Yes
+C:\SMS_Proj\rptTransaction.DCA=Yes
+C:\SMS_Proj\SMS.mdb=Yes
+C:\SMS_Proj\SMS.vbw=Yes
+C:\SMS_Proj\SMS.PDM=Yes
+
+[Package|IBRUQ-TECH NIG|Configure Registry Files]
+Applicable=No
+
+[Package|IBRUQ-TECH NIG|Configure Remote Servers]
+Applicable=No
+
+[Package|IBRUQ-TECH NIG|Install Locations]
+C:\SMS_Proj\SMS.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSRDC20.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msmask32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\msdatgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comct332.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdbrptr.dll=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MCI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\picclp32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\SMS_Proj\sms_database\SMS.mdb=$(AppPath)
+C:\SMS_Proj\form\frmLogin.frm=$(AppPath)
+C:\SMS_Proj\form\frmMain.frm=$(AppPath)
+C:\SMS_Proj\form\frmPay.frm=$(AppPath)
+C:\SMS_Proj\form\frmPay_Summary.frm=$(AppPath)
+C:\SMS_Proj\form\frmRegist.frm=$(AppPath)
+C:\SMS_Proj\form\frmReport.frm=$(AppPath)
+C:\SMS_Proj\form\frmResult.frm=$(AppPath)
+C:\SMS_Proj\form\frmSchool_Splash.frm=$(AppPath)
+C:\SMS_Proj\form\frmMain.frx=$(AppPath)
+C:\SMS_Proj\form\frmPay.frx=$(AppPath)
+C:\SMS_Proj\form\frmSchool_Splash.frx=$(AppPath)
+C:\SMS_Proj\Passport\NoPic.JPG=$(AppPath)
+C:\SMS_Proj\Passport\001.bmp=$(AppPath)
+C:\SMS_Proj\Reports\DataReport_Register.Dsr=$(AppPath)
+C:\SMS_Proj\Reports\DataReport_Register.DCA=$(AppPath)
+C:\SMS_Proj\Reports\rptCertificate.Dsr=$(AppPath)
+C:\SMS_Proj\Reports\rptCertificate.DCA=$(AppPath)
+C:\SMS_Proj\Reports\rptDiploma.Dsr=$(AppPath)
+C:\SMS_Proj\Reports\rptDiploma.DCA=$(AppPath)
+C:\SMS_Proj\Reports\rptEngineering.Dsr=$(AppPath)
+C:\SMS_Proj\Reports\rptEngineering.DCA=$(AppPath)
+C:\SMS_Proj\Reports\rptPayment.Dsr=$(AppPath)
+C:\SMS_Proj\Reports\rptTransaction.Dsr=$(AppPath)
+C:\SMS_Proj\Reports\rptTransaction.DCA=$(AppPath)
+C:\SMS_Proj\Reports\rptIndi_Fee.DCA=$(AppPath)
+C:\SMS_Proj\SMS.vbp=$(AppPath)
+C:\SMS_Proj\DataReport_Register.Dsr=$(AppPath)
+C:\SMS_Proj\frmLogin.frm=$(AppPath)
+C:\SMS_Proj\frmMain.frm=$(AppPath)
+C:\SMS_Proj\DataReport_Register.DCA=$(AppPath)
+C:\SMS_Proj\frmPay.frm=$(AppPath)
+C:\SMS_Proj\frmMain.frx=$(AppPath)
+C:\SMS_Proj\frmPay.frx=$(AppPath)
+C:\SMS_Proj\frmPay_Summary.frm=$(AppPath)
+C:\SMS_Proj\frmRegist.frm=$(AppPath)
+C:\SMS_Proj\frmReport.frm=$(AppPath)
+C:\SMS_Proj\frmResult.frm=$(AppPath)
+C:\SMS_Proj\frmSchool_Splash.frm=$(AppPath)
+C:\SMS_Proj\frmSchool_Splash.frx=$(AppPath)
+C:\SMS_Proj\MSSCCPRJ.SCC=$(AppPath)
+C:\SMS_Proj\rptCertificate.Dsr=$(AppPath)
+C:\SMS_Proj\rptCertificate.DCA=$(AppPath)
+C:\SMS_Proj\rptDiploma.Dsr=$(AppPath)
+C:\SMS_Proj\rptDiploma.DCA=$(AppPath)
+C:\SMS_Proj\rptEngineering.Dsr=$(AppPath)
+C:\SMS_Proj\rptEngineering.DCA=$(AppPath)
+C:\SMS_Proj\rptIndi_Fee.DCA=$(AppPath)
+C:\SMS_Proj\rptPayment.Dsr=$(AppPath)
+C:\SMS_Proj\rptPayment.DCA=$(AppPath)
+C:\SMS_Proj\rptTransaction.Dsr=$(AppPath)
+C:\SMS_Proj\rptTransaction.DCA=$(AppPath)
+C:\SMS_Proj\SMS.mdb=$(AppPath)
+C:\SMS_Proj\SMS.vbw=$(AppPath)
+C:\SMS_Proj\SMS.PDM=$(AppPath)
+
+[Package|IBRUQ-TECH NIG|Configure Shared Files]
+Applicable=Yes
+C:\SMS_Proj\SMS.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\SMS_Proj\sms_database\SMS.mdb=No
+C:\SMS_Proj\form\frmLogin.frm=No
+C:\SMS_Proj\form\frmMain.frm=No
+C:\SMS_Proj\form\frmPay.frm=No
+C:\SMS_Proj\form\frmPay_Summary.frm=No
+C:\SMS_Proj\form\frmRegist.frm=No
+C:\SMS_Proj\form\frmReport.frm=No
+C:\SMS_Proj\form\frmResult.frm=No
+C:\SMS_Proj\form\frmSchool_Splash.frm=No
+C:\SMS_Proj\form\frmMain.frx=No
+C:\SMS_Proj\form\frmPay.frx=No
+C:\SMS_Proj\form\frmSchool_Splash.frx=No
+C:\SMS_Proj\Passport\NoPic.JPG=No
+C:\SMS_Proj\Passport\001.bmp=No
+C:\SMS_Proj\Reports\DataReport_Register.Dsr=No
+C:\SMS_Proj\Reports\DataReport_Register.DCA=No
+C:\SMS_Proj\Reports\rptCertificate.Dsr=No
+C:\SMS_Proj\Reports\rptCertificate.DCA=No
+C:\SMS_Proj\Reports\rptDiploma.Dsr=No
+C:\SMS_Proj\Reports\rptDiploma.DCA=No
+C:\SMS_Proj\Reports\rptEngineering.Dsr=No
+C:\SMS_Proj\Reports\rptEngineering.DCA=No
+C:\SMS_Proj\Reports\rptPayment.Dsr=No
+C:\SMS_Proj\Reports\rptTransaction.Dsr=No
+C:\SMS_Proj\Reports\rptTransaction.DCA=No
+C:\SMS_Proj\Reports\rptIndi_Fee.DCA=No
+C:\SMS_Proj\SMS.vbp=No
+C:\SMS_Proj\DataReport_Register.Dsr=No
+C:\SMS_Proj\frmLogin.frm=No
+C:\SMS_Proj\frmMain.frm=No
+C:\SMS_Proj\DataReport_Register.DCA=No
+C:\SMS_Proj\frmPay.frm=No
+C:\SMS_Proj\frmMain.frx=No
+C:\SMS_Proj\frmPay.frx=No
+C:\SMS_Proj\frmPay_Summary.frm=No
+C:\SMS_Proj\frmRegist.frm=No
+C:\SMS_Proj\frmReport.frm=No
+C:\SMS_Proj\frmResult.frm=No
+C:\SMS_Proj\frmSchool_Splash.frm=No
+C:\SMS_Proj\frmSchool_Splash.frx=No
+C:\SMS_Proj\MSSCCPRJ.SCC=No
+C:\SMS_Proj\rptCertificate.Dsr=No
+C:\SMS_Proj\rptCertificate.DCA=No
+C:\SMS_Proj\rptDiploma.Dsr=No
+C:\SMS_Proj\rptDiploma.DCA=No
+C:\SMS_Proj\rptEngineering.Dsr=No
+C:\SMS_Proj\rptEngineering.DCA=No
+C:\SMS_Proj\rptIndi_Fee.DCA=No
+C:\SMS_Proj\rptPayment.Dsr=No
+C:\SMS_Proj\rptPayment.DCA=No
+C:\SMS_Proj\rptTransaction.Dsr=No
+C:\SMS_Proj\rptTransaction.DCA=No
+C:\SMS_Proj\SMS.mdb=No
+C:\SMS_Proj\SMS.vbw=No
+C:\SMS_Proj\SMS.PDM=No
+
+[Package|IBRUQ-TECH NIG|Distribution]
+Type=single
+Size=
+Title=IBRUQ SMS_PROJ
+
+[Package|IBRUQ-TECH NIG|IconGroups]
+Group0=IBRUQ SCHOOL MANAGEMENT SYSTEM
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|IBRUQ-TECH NIG|IBRUQ SCHOOL MANAGEMENT SYSTEM]
+Icon1=SMS.EXE
+Title1=IBRUQ SCHOOL MANAGEMENT SYSTEM
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|IBRUQ-TECH NIG|Package]
+PackageFolder=C:\School Mgt Ware
+ProjectFolder=C:\SMS_Proj
+ServerSideCab=
+File1=C:\School Mgt Ware\setup.exe
+File2=C:\School Mgt Ware\Setup.Lst
+File3=C:\School Mgt Ware\SMS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|IBRUQ SEUP|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\School Mgt Syst
+
+[Package|IBRUQ SEUP|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=No
+
+[Package|IBRUQ SEUP|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|IBRUQ SEUP|Files Found]
+
+[Package|IBRUQ SEUP|Files Released]
+
+[Package|IBRUQ SEUP|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+
+[Package|IBRUQ SEUP|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCT2.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\picclp32.ocx=
+C:\WINDOWS\system32\msdbrptr.dll=
+C:\WINDOWS\system32\comct332.ocx=
+C:\WINDOWS\system32\msdatgrd.ocx=
+C:\WINDOWS\system32\msmask32.ocx=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\MSRDO20.DLL=
+
+[Package|IBRUQ SEUP|Files Added]
+C:\SMS_Proj\DataReport_Register.Dsr=
+C:\SMS_Proj\DataReport_Register.DCA=
+C:\SMS_Proj\frmAbout.frm=
+C:\SMS_Proj\frmLogin.frm=
+C:\SMS_Proj\frmMain.frm=
+C:\SMS_Proj\frmPay.frm=
+C:\SMS_Proj\frmPay_Summary.frm=
+C:\SMS_Proj\frmRegist.frm=
+C:\SMS_Proj\frmReport.frm=
+C:\SMS_Proj\frmResult.frm=
+C:\SMS_Proj\frmSchool_Splash.frm=
+C:\SMS_Proj\rptCertificate.Dsr=
+C:\SMS_Proj\rptCertificate.DCA=
+C:\SMS_Proj\rptDiploma.Dsr=
+C:\SMS_Proj\rptDiploma.DCA=
+C:\SMS_Proj\rptEngineering.Dsr=
+C:\SMS_Proj\rptEngineering.DCA=
+C:\SMS_Proj\rptIndi_Fee.DCA=
+C:\SMS_Proj\rptPayment.Dsr=
+C:\SMS_Proj\rptPayment.DCA=
+C:\SMS_Proj\rptTransaction.Dsr=
+C:\SMS_Proj\rptTransaction.DCA=
+C:\SMS_Proj\SMS.mdb=
+C:\SMS_Proj\SMS.vbp=
+C:\SMS_Proj\SMS.vbw=
+C:\SMS_Proj\SMS.PDM=
+
+[Package|IBRUQ SEUP|Files Removed]
+
+[Package|IBRUQ SEUP|Files In Project]
+C:\SMS_Proj\SMS.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\MSRDC20.OCX=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\msmask32.ocx=Yes
+C:\WINDOWS\system32\msdatgrd.ocx=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\comct332.ocx=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\msdbrptr.dll=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSCHRT20.OCX=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\system32\MSMAPI32.OCX=Yes
+C:\WINDOWS\system32\MCI32.OCX=Yes
+C:\WINDOWS\system32\picclp32.ocx=Yes
+C:\WINDOWS\system32\SYSINFO.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\SMS_Proj\DataReport_Register.Dsr=Yes
+C:\SMS_Proj\DataReport_Register.DCA=Yes
+C:\SMS_Proj\frmAbout.frm=Yes
+C:\SMS_Proj\frmLogin.frm=Yes
+C:\SMS_Proj\frmMain.frm=Yes
+C:\SMS_Proj\frmPay.frm=Yes
+C:\SMS_Proj\frmPay_Summary.frm=Yes
+C:\SMS_Proj\frmRegist.frm=Yes
+C:\SMS_Proj\frmReport.frm=Yes
+C:\SMS_Proj\frmResult.frm=Yes
+C:\SMS_Proj\frmSchool_Splash.frm=Yes
+C:\SMS_Proj\rptCertificate.Dsr=Yes
+C:\SMS_Proj\rptCertificate.DCA=Yes
+C:\SMS_Proj\rptDiploma.Dsr=Yes
+C:\SMS_Proj\rptDiploma.DCA=Yes
+C:\SMS_Proj\rptEngineering.Dsr=Yes
+C:\SMS_Proj\rptEngineering.DCA=Yes
+C:\SMS_Proj\rptIndi_Fee.DCA=Yes
+C:\SMS_Proj\rptPayment.Dsr=Yes
+C:\SMS_Proj\rptPayment.DCA=Yes
+C:\SMS_Proj\rptTransaction.Dsr=Yes
+C:\SMS_Proj\rptTransaction.DCA=Yes
+C:\SMS_Proj\SMS.mdb=Yes
+C:\SMS_Proj\SMS.vbp=Yes
+C:\SMS_Proj\SMS.vbw=Yes
+C:\SMS_Proj\SMS.PDM=Yes
+
+[Package|IBRUQ SEUP|Configure Registry Files]
+Applicable=No
+
+[Package|IBRUQ SEUP|Configure Remote Servers]
+Applicable=No
+
+[Package|IBRUQ SEUP|Install Locations]
+C:\SMS_Proj\SMS.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSRDC20.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msmask32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\msdatgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comct332.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdbrptr.dll=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MCI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\picclp32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\SMS_Proj\DataReport_Register.Dsr=$(AppPath)
+C:\SMS_Proj\DataReport_Register.DCA=$(AppPath)
+C:\SMS_Proj\frmAbout.frm=$(AppPath)
+C:\SMS_Proj\frmLogin.frm=$(AppPath)
+C:\SMS_Proj\frmMain.frm=$(AppPath)
+C:\SMS_Proj\frmPay.frm=$(AppPath)
+C:\SMS_Proj\frmPay_Summary.frm=$(AppPath)
+C:\SMS_Proj\frmRegist.frm=$(AppPath)
+C:\SMS_Proj\frmReport.frm=$(AppPath)
+C:\SMS_Proj\frmResult.frm=$(AppPath)
+C:\SMS_Proj\frmSchool_Splash.frm=$(AppPath)
+C:\SMS_Proj\rptCertificate.Dsr=$(AppPath)
+C:\SMS_Proj\rptCertificate.DCA=$(AppPath)
+C:\SMS_Proj\rptDiploma.Dsr=$(AppPath)
+C:\SMS_Proj\rptDiploma.DCA=$(AppPath)
+C:\SMS_Proj\rptEngineering.Dsr=$(AppPath)
+C:\SMS_Proj\rptEngineering.DCA=$(AppPath)
+C:\SMS_Proj\rptIndi_Fee.DCA=$(AppPath)
+C:\SMS_Proj\rptPayment.Dsr=$(AppPath)
+C:\SMS_Proj\rptPayment.DCA=$(AppPath)
+C:\SMS_Proj\rptTransaction.Dsr=$(AppPath)
+C:\SMS_Proj\rptTransaction.DCA=$(AppPath)
+C:\SMS_Proj\SMS.mdb=$(AppPath)
+C:\SMS_Proj\SMS.vbp=$(AppPath)
+C:\SMS_Proj\SMS.vbw=$(AppPath)
+C:\SMS_Proj\SMS.PDM=$(AppPath)
+
+[Package|IBRUQ SEUP|Configure Shared Files]
+Applicable=Yes
+C:\SMS_Proj\SMS.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\SMS_Proj\DataReport_Register.Dsr=No
+C:\SMS_Proj\DataReport_Register.DCA=No
+C:\SMS_Proj\frmAbout.frm=No
+C:\SMS_Proj\frmLogin.frm=No
+C:\SMS_Proj\frmMain.frm=No
+C:\SMS_Proj\frmPay.frm=No
+C:\SMS_Proj\frmPay_Summary.frm=No
+C:\SMS_Proj\frmRegist.frm=No
+C:\SMS_Proj\frmReport.frm=No
+C:\SMS_Proj\frmResult.frm=No
+C:\SMS_Proj\frmSchool_Splash.frm=No
+C:\SMS_Proj\rptCertificate.Dsr=No
+C:\SMS_Proj\rptCertificate.DCA=No
+C:\SMS_Proj\rptDiploma.Dsr=No
+C:\SMS_Proj\rptDiploma.DCA=No
+C:\SMS_Proj\rptEngineering.Dsr=No
+C:\SMS_Proj\rptEngineering.DCA=No
+C:\SMS_Proj\rptIndi_Fee.DCA=No
+C:\SMS_Proj\rptPayment.Dsr=No
+C:\SMS_Proj\rptPayment.DCA=No
+C:\SMS_Proj\rptTransaction.Dsr=No
+C:\SMS_Proj\rptTransaction.DCA=No
+C:\SMS_Proj\SMS.mdb=No
+C:\SMS_Proj\SMS.vbp=No
+C:\SMS_Proj\SMS.vbw=No
+C:\SMS_Proj\SMS.PDM=No
+
+[Package|IBRUQ SEUP|Distribution]
+Type=single
+Size=
+Title=School Managent System
+
+[Package|IBRUQ SEUP|IconGroups]
+Group0=IBRUQWare
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|IBRUQ SEUP|IBRUQWare]
+Icon1=SMS.EXE
+Title1=IBRUQWare
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|IBRUQ SEUP|Package]
+PackageFolder=C:\School Mgt Syst
+ProjectFolder=C:\SMS_Proj
+ServerSideCab=
+File1=C:\School Mgt Syst\setup.exe
+File2=C:\School Mgt Syst\Setup.Lst
+File3=C:\School Mgt Syst\SMS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|IBRUQ SETUP|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\School Mgt Syst
+
+[Package|IBRUQ SETUP|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=No
+
+[Package|IBRUQ SETUP|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|IBRUQ SETUP|Files Found]
+
+[Package|IBRUQ SETUP|Files Released]
+
+[Package|IBRUQ SETUP|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+
+[Package|IBRUQ SETUP|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCT2.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\picclp32.ocx=
+C:\WINDOWS\system32\msdbrptr.dll=
+C:\WINDOWS\system32\comct332.ocx=
+C:\WINDOWS\system32\msdatgrd.ocx=
+C:\WINDOWS\system32\msmask32.ocx=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\MSRDO20.DLL=
+
+[Package|IBRUQ SETUP|Files Added]
+C:\SMS_Proj\DataReport_Register.Dsr=
+C:\SMS_Proj\DataReport_Register.dsx=
+C:\SMS_Proj\frmAbout.frm=
+C:\SMS_Proj\frmLogin.frm=
+C:\SMS_Proj\DataReport_Register.DCA=
+C:\SMS_Proj\frmMain.frm=
+C:\SMS_Proj\frmPay.frm=
+C:\SMS_Proj\frmPay_Summary.frm=
+C:\SMS_Proj\frmRegist.frm=
+C:\SMS_Proj\frmReport.frm=
+C:\SMS_Proj\frmResult.frm=
+C:\SMS_Proj\frmSchool_Splash.frm=
+C:\SMS_Proj\rptCertificate.Dsr=
+C:\SMS_Proj\rptCertificate.dsx=
+C:\SMS_Proj\rptCertificate.DCA=
+C:\SMS_Proj\rptDiploma.Dsr=
+C:\SMS_Proj\rptDiploma.dsx=
+C:\SMS_Proj\rptDiploma.DCA=
+C:\SMS_Proj\rptEngineering.Dsr=
+C:\SMS_Proj\rptEngineering.DCA=
+C:\SMS_Proj\rptEngineering.dsx=
+C:\SMS_Proj\rptIndi_Fee.DCA=
+C:\SMS_Proj\rptPayment.Dsr=
+C:\SMS_Proj\rptPayment.dsx=
+C:\SMS_Proj\rptPayment.DCA=
+C:\SMS_Proj\rptTransaction.Dsr=
+C:\SMS_Proj\rptTransaction.dsx=
+C:\SMS_Proj\rptTransaction.DCA=
+C:\SMS_Proj\SMS.mdb=
+C:\SMS_Proj\SMS.vbp=
+C:\SMS_Proj\SMS.vbw=
+
+[Package|IBRUQ SETUP|Files Removed]
+
+[Package|IBRUQ SETUP|Files In Project]
+C:\SMS_Proj\SMS.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\MSRDC20.OCX=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\msmask32.ocx=Yes
+C:\WINDOWS\system32\msdatgrd.ocx=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\comct332.ocx=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\msdbrptr.dll=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSCHRT20.OCX=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\system32\MSMAPI32.OCX=Yes
+C:\WINDOWS\system32\MCI32.OCX=Yes
+C:\WINDOWS\system32\picclp32.ocx=Yes
+C:\WINDOWS\system32\SYSINFO.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\SMS_Proj\DataReport_Register.Dsr=Yes
+C:\SMS_Proj\DataReport_Register.dsx=Yes
+C:\SMS_Proj\frmAbout.frm=Yes
+C:\SMS_Proj\frmLogin.frm=Yes
+C:\SMS_Proj\DataReport_Register.DCA=Yes
+C:\SMS_Proj\frmMain.frm=Yes
+C:\SMS_Proj\frmPay.frm=Yes
+C:\SMS_Proj\frmPay_Summary.frm=Yes
+C:\SMS_Proj\frmRegist.frm=Yes
+C:\SMS_Proj\frmReport.frm=Yes
+C:\SMS_Proj\frmResult.frm=Yes
+C:\SMS_Proj\frmSchool_Splash.frm=Yes
+C:\SMS_Proj\rptCertificate.Dsr=Yes
+C:\SMS_Proj\rptCertificate.dsx=Yes
+C:\SMS_Proj\rptCertificate.DCA=Yes
+C:\SMS_Proj\rptDiploma.Dsr=Yes
+C:\SMS_Proj\rptDiploma.dsx=Yes
+C:\SMS_Proj\rptDiploma.DCA=Yes
+C:\SMS_Proj\rptEngineering.Dsr=Yes
+C:\SMS_Proj\rptEngineering.DCA=Yes
+C:\SMS_Proj\rptEngineering.dsx=Yes
+C:\SMS_Proj\rptIndi_Fee.DCA=Yes
+C:\SMS_Proj\rptPayment.Dsr=Yes
+C:\SMS_Proj\rptPayment.dsx=Yes
+C:\SMS_Proj\rptPayment.DCA=Yes
+C:\SMS_Proj\rptTransaction.Dsr=Yes
+C:\SMS_Proj\rptTransaction.dsx=Yes
+C:\SMS_Proj\rptTransaction.DCA=Yes
+C:\SMS_Proj\SMS.mdb=Yes
+C:\SMS_Proj\SMS.vbp=Yes
+C:\SMS_Proj\SMS.vbw=Yes
+
+[Package|IBRUQ SETUP|Configure Registry Files]
+Applicable=No
+
+[Package|IBRUQ SETUP|Configure Remote Servers]
+Applicable=No
+
+[Package|IBRUQ SETUP|Install Locations]
+C:\SMS_Proj\SMS.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSRDC20.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msmask32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\msdatgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comct332.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdbrptr.dll=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MCI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\picclp32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\SMS_Proj\DataReport_Register.Dsr=$(AppPath)
+C:\SMS_Proj\DataReport_Register.dsx=$(AppPath)
+C:\SMS_Proj\frmAbout.frm=$(AppPath)
+C:\SMS_Proj\frmLogin.frm=$(AppPath)
+C:\SMS_Proj\DataReport_Register.DCA=$(AppPath)
+C:\SMS_Proj\frmMain.frm=$(AppPath)
+C:\SMS_Proj\frmPay.frm=$(AppPath)
+C:\SMS_Proj\frmPay_Summary.frm=$(AppPath)
+C:\SMS_Proj\frmRegist.frm=$(AppPath)
+C:\SMS_Proj\frmReport.frm=$(AppPath)
+C:\SMS_Proj\frmResult.frm=$(AppPath)
+C:\SMS_Proj\frmSchool_Splash.frm=$(AppPath)
+C:\SMS_Proj\rptCertificate.Dsr=$(AppPath)
+C:\SMS_Proj\rptCertificate.dsx=$(AppPath)
+C:\SMS_Proj\rptCertificate.DCA=$(AppPath)
+C:\SMS_Proj\rptDiploma.Dsr=$(AppPath)
+C:\SMS_Proj\rptDiploma.dsx=$(AppPath)
+C:\SMS_Proj\rptDiploma.DCA=$(AppPath)
+C:\SMS_Proj\rptEngineering.Dsr=$(AppPath)
+C:\SMS_Proj\rptEngineering.DCA=$(AppPath)
+C:\SMS_Proj\rptEngineering.dsx=$(AppPath)
+C:\SMS_Proj\rptIndi_Fee.DCA=$(AppPath)
+C:\SMS_Proj\rptPayment.Dsr=$(AppPath)
+C:\SMS_Proj\rptPayment.dsx=$(AppPath)
+C:\SMS_Proj\rptPayment.DCA=$(AppPath)
+C:\SMS_Proj\rptTransaction.Dsr=$(AppPath)
+C:\SMS_Proj\rptTransaction.dsx=$(AppPath)
+C:\SMS_Proj\rptTransaction.DCA=$(AppPath)
+C:\SMS_Proj\SMS.mdb=$(AppPath)
+C:\SMS_Proj\SMS.vbp=$(AppPath)
+C:\SMS_Proj\SMS.vbw=$(AppPath)
+
+[Package|IBRUQ SETUP|Configure Shared Files]
+Applicable=Yes
+C:\SMS_Proj\SMS.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\SMS_Proj\DataReport_Register.Dsr=No
+C:\SMS_Proj\DataReport_Register.dsx=No
+C:\SMS_Proj\frmAbout.frm=No
+C:\SMS_Proj\frmLogin.frm=No
+C:\SMS_Proj\DataReport_Register.DCA=No
+C:\SMS_Proj\frmMain.frm=No
+C:\SMS_Proj\frmPay.frm=No
+C:\SMS_Proj\frmPay_Summary.frm=No
+C:\SMS_Proj\frmRegist.frm=No
+C:\SMS_Proj\frmReport.frm=No
+C:\SMS_Proj\frmResult.frm=No
+C:\SMS_Proj\frmSchool_Splash.frm=No
+C:\SMS_Proj\rptCertificate.Dsr=No
+C:\SMS_Proj\rptCertificate.dsx=No
+C:\SMS_Proj\rptCertificate.DCA=No
+C:\SMS_Proj\rptDiploma.Dsr=No
+C:\SMS_Proj\rptDiploma.dsx=No
+C:\SMS_Proj\rptDiploma.DCA=No
+C:\SMS_Proj\rptEngineering.Dsr=No
+C:\SMS_Proj\rptEngineering.DCA=No
+C:\SMS_Proj\rptEngineering.dsx=No
+C:\SMS_Proj\rptIndi_Fee.DCA=No
+C:\SMS_Proj\rptPayment.Dsr=No
+C:\SMS_Proj\rptPayment.dsx=No
+C:\SMS_Proj\rptPayment.DCA=No
+C:\SMS_Proj\rptTransaction.Dsr=No
+C:\SMS_Proj\rptTransaction.dsx=No
+C:\SMS_Proj\rptTransaction.DCA=No
+C:\SMS_Proj\SMS.mdb=No
+C:\SMS_Proj\SMS.vbp=No
+C:\SMS_Proj\SMS.vbw=No
+
+[Package|IBRUQ SETUP|Distribution]
+Type=single
+Size=
+Title=IBRUQ WARE
+
+[Package|IBRUQ SETUP|IconGroups]
+Group0=IBRUQ WARE
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|IBRUQ SETUP|IBRUQ WARE]
+Icon1=SMS.EXE
+Title1=IBRUQ WARE
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|IBRUQ SETUP|Package]
+PackageFolder=C:\School Mgt Syst
+ProjectFolder=C:\SMS_Proj
+ServerSideCab=
+File1=C:\School Mgt Syst\setup.exe
+File2=C:\School Mgt Syst\Setup.Lst
+File3=C:\School Mgt Syst\SMS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
